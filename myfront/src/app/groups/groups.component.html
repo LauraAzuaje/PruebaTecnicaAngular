@@ -1,5 +1,13 @@
-<h1>Grupos</h1>
-<a routerLink="/municipies">Volver</a>
-<div class="card-container" *ngFor="let group of groups">
-    <h2>{{ group.nombre }}</h2>
-</div>
+<div id="main-container" > 
+    <table>
+    <thead>
+      <tr>
+        <th>Grupos</th>
+      </tr>
+    </thead>
+    <tr *ngFor="let group of groups">
+      <td>{{ group.nombre }}</td>
+    </tr>
+  </table> 
+  <a routerLink="/municipies">Volver</a>
+  </div>

@@ -1,6 +1,13 @@
-<h1>Sedes</h1>
-<a routerLink="/municipies">Volver</a>
-<div class="card-container" *ngFor="let campu of campus">
-    <h2>{{ campu.nombre }}</h2>
-    <a routerLink="/groups/{{ campu.dane }}">Ver</a>
-</div>
+<div id="main-container" > 
+    <table>
+    <thead>
+      <tr>
+        <th>Sedes</th> <th> Ver más</th>
+      </tr>
+    </thead>
+    <tr *ngFor="let campu of campus">
+      <td>{{ campu.nombre }}</td> <td><a routerLink="/groups/{{campu.dane}}">Ver</a></td>
+    </tr>
+  </table> 
+  <a routerLink="/municipies">Volver</a>
+  </div>

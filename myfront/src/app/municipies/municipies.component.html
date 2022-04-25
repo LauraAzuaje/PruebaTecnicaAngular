@@ -1,6 +1,12 @@
-<h1>Municipios</h1>
-
-  <div class="card-container" *ngFor="let munucipie of municipies">
-    <h2>{{ munucipie.nombre }}</h2>
-    <a routerLink="/institutes/{{munucipie.dane}}">Ver</a>
-  </div>
+<div id="main-container" > 
+  <table>
+  <thead>
+    <tr>
+      <th>Municipios</th> <th> Ver más</th>
+    </tr>
+  </thead>
+  <tr *ngFor="let munucipie of municipies">
+    <td>{{ munucipie.nombre }}</td> <td><a routerLink="/institutes/{{munucipie.dane}}">Ver</a></td>
+  </tr>
+</table> 
+</div>
