@@ -1,4 +1,4 @@
-# PruebaTecnicaAngular
+# Prueba Tecnica Angular 🅰️
 _Este proyecto es la solución de la prueba técnica para el cargo de Desarrollador de Software Junior, para la empresa Engenius._
 
 ## Comencemos 🚀
