@@ -1,0 +1,6 @@
+<h1>Sedes</h1>
+<a routerLink="/municipies">Volver</a>
+<div class="card-container" *ngFor="let campu of campus">
+    <h2>{{ campu.nombre }}</h2>
+    <a routerLink="/groups/{{ campu.dane }}">Ver</a>
+</div>
